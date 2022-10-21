@@ -109,7 +109,18 @@ body {
     width: 60em;
     height: 500px;
   }
-  
+ 
+  .logo:hover {
+    animation: awesomeAnimation 1s infinite;
+    -webkit-transform: rotate(100deg) skewY(20deg);
+  }
+
   #heading {
     text-align: center;
   }
+ }
+ #h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
